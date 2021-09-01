@@ -17,6 +17,6 @@ steps:
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://github.com/goneslippy/aztera/blob/master/static.multialert.deploy.json'
-    csmParametersFileLink: 'https://github.com/goneslippy/aztera/blob/master/static.multithreshold.windows.cpu.parameters.json'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/goneslippy/aztera/master/static.multithreshold.linux.cpu.parameters.out.json?token=AM42H5RYSSS7BELBOLA6YRDBF6XBA'
     deploymentMode: 'Incremental'
 
