@@ -1,0 +1,14 @@
+# Starter pipeline
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'pipeline_connection_to_cmp1'
+    subscriptionId: 'afc91b15-6199-4c2c-a175-d7af583d8116'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'monitordeploycmp1'
+    location: 'East US'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://github.com/goneslippy/aztera/blob/master/static.multialert.deploy.json'
+    csmParametersFileLink: 'https://github.com/goneslippy/aztera/blob/master/static.multithreshold.windows.cpu.parameters.json'
+    deploymentMode: 'Incremental'
+
