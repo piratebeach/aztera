@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "alertName": {
+            "value": "OCEANXXXXXX | Average Processor time greater than 90"
+        },
+        "alertDescription": {
+            "value": "OCEANXXXXXX | Average Processor time greater than 90"
+        },
+        "alertSeverity": {
+            "value":1
+        },
+        "isEnabled": {
+            "value": true
+        },
+        "resourceId": {
+            "value": "VMID"     
+           },
+        "metricName": {
+            "value": "Processor Information\\% Processor Time"
+        },
+        "metricNamespace": {
+            "value": "Azure.VM.Windows.GuestMetrics"
+        },
+        "operator": {
+          "value": "GreaterThan"
+        },
+        "threshold": {
+            "value": "90"
+        },
+        "timeAggregation": {
+            "value": "Average"
+        },
+        "actionGroupId": {
+            "value": "actiongroupID"
+        }
+    }
+}

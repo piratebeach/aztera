@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "alertName": {
+            "value": "OCEANxxx | Logical Disk Space Percentage Free"
+        },
+        "alertDescription": {
+            "value": "OCEANxxx | Logical Disk Space Percentage Free"
+        },
+        "alertSeverity": {
+            "value":1
+        },
+        "isEnabled": {
+            "value": true
+        },
+        "resourceId": {
+            "value": "VMID"
+                },
+        "metricName": {
+            "value": "Memory\\% Committed Bytes In Use"
+        },
+        "metricNamespace": {
+            "value": "Azure.VM.Windows.GuestMetrics"
+        },
+        "operator": {
+          "value": "GreaterThan"
+        },
+        "threshold": {
+            "value": "95"
+        },
+        "timeAggregation": {
+            "value": "Average"
+        },
+        "actionGroupId": {
+            "value": "actiongroupID"
+        }
+    }
+}
