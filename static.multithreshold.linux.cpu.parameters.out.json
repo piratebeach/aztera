@@ -15,7 +15,7 @@
             "value": true
         },
         "resourceId": {
-            "value": "/subscriptions/afc91b15-6199-4c2c-a175-d7af583d8116/resourceGroups/monitordeploycmp1/providers/Microsoft.Compute/virtualMachines/dempaddtolaws"
+            "value": "VMID"
         },
         "metricName": {
             "value": "cpu/usage_active"
@@ -33,7 +33,7 @@
             "value": "Average"
         },
         "actionGroupId": {
-            "value": "/subscriptions/afc91b15-6199-4c2c-a175-d7af583d8116/resourceGroups/monitordeploycmp1/providers/microsoft.insights/actionGroups/OCEAN3334444_Monitor_Action_group"
+            "value": "actiongroupID"
         }
     }
 }
