@@ -16,7 +16,7 @@ steps:
     resourceGroupName: 'monitordeploycmp1'
     location: 'East US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/goneslippy/aztera/master/static.multialert.deploy.json?token=AM42H5U6PUM4BVDOI2FV2FTBGCV5E'
-    csmParametersFileLink: 'https://raw.githubusercontent.com/goneslippy/aztera/master/static.multithreshold.linux.cpu.parameters.out.json?token=AM42H5RYSSS7BELBOLA6YRDBF6XBA'
+    csmFileLink: 'https://dev.azure.com/aptumdevops/_git/templatedeploy?path=%2Fstatic.multialert.deploy.json'
+    csmParametersFileLink: 'https://dev.azure.com/aptumdevops/_git/templatedeploy?path=%2Fstatic.multithreshold.windows.cpu.parameters.json'
     deploymentMode: 'Incremental'
 
